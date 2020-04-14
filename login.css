@@ -1,7 +1,25 @@
 h1{
-	color: lightblue;
+	color: lightseagreen;
+	background-color: white;
+	font-weight: bolder;
+	font-size: 50px
 }
 
 body{
-	font-family: arial;
+	font-family: arial, verdana, sans-serif;
+	color: coral;
+	background-image: url(bg2.png);
+}
+
+form, h2{
+	background-color: white;
+}
+
+a{
+	font-family: "Lucida Console", "Times New Roman", serif;
+	color: grey;
+}
+
+button{
+	color: green;
 }
