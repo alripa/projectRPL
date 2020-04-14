@@ -1,23 +1,42 @@
 h1{
 	color: lightseagreen;
-	background-color: white;
+	/*background-color: white;*/
 	font-weight: bolder;
 	font-size: 50px
 }
 
+/*pada css sebaiknya menggunakan class daripada id, sebisa mungkin gunakan elemen html*/
+
 body{
 	font-family: arial, verdana, sans-serif;
 	color: coral;
-	background-image: url(bg2.png);
+	background-color: #6590d6;
+	background-image: url(bg1.png);
+	background-repeat: repeat-y;
+	background-size: 100%;
 }
 
-form, h2{
+/*form, h2{
 	background-color: white;
+*/}
+
+.lupa:link{
+	font-family: "Lucida Console", "Times New Roman", serif;
+	color: gold;
+}
+.lupa:hover{
+	font-family: "Lucida Console", "Times New Roman", sans-serif;
+	color: gold;
+	font-style: bolder;
+	font-size: 20px;
+}
+.lupa:active{
+	font-color:red;
 }
 
-a{
+.lupa:visited{
 	font-family: "Lucida Console", "Times New Roman", serif;
-	color: grey;
+	color: white;
 }
 
 button{
