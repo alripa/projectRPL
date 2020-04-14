@@ -25,17 +25,14 @@ body{
 	color: gold;
 }
 .lupa:hover{
-	font-family: "Lucida Console", "Times New Roman", sans-serif;
-	color: gold;
 	font-style: bolder;
-	font-size: 20px;
+	font-size: 17px;
 }
 .lupa:active{
 	font-color:red;
 }
 
 .lupa:visited{
-	font-family: "Lucida Console", "Times New Roman", serif;
 	color: white;
 }
 
